@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <title>青橙造物</title>
+    <meta name="description" content="We are committed to creating amazing experiences for our users">
+    <script>
+        (function (w, d, s, q, i) {
+            w[q] = w[q] || [];
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s);
+            j.async = true;
+            j.id = 'beacon-aplus';
+            j.src = 'https://d.alicdn.com/alilog/mlog/aplus/' + i + '.js';
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'aplus_queue', '203467608');
+
+        //集成应用的appKey
+        aplus_queue.push({
+            action: 'aplus.setMetaInfo',
+            arguments: ['appKey', '660288facac2a664de0e44cf']
+        });
+        /************************以下内容为可选配置内容****************************/
+        //是否开启调试模式 
+        aplus_queue.push({
+            action: 'aplus.setMetaInfo',
+            arguments: ['DEBUG', false]
+        });
+        /******************************************************************/
+    </script>
+    <style>
+        html {
+            font-size: 40px;
+            font-weight: 200;
+        }
+
+        body {
+            margin: 70px;
+            background-color: black;
+            color: white;
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
+        }
+
+        .zh {
+            padding-top: 20px;
+        }
+
+        .links {
+            padding-top: 200px;
+            display: flex;
+            align-items: center;
+        }
+
+        .links-div {
+            width: 80px; 
+            display: flex;
+            align-items: center;
+
+        }
+
+        .links-div-img {
+            height: 54px;
+            width: 54px;
+        }
+
+        .wechat {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .wechat:hover::after {
+            content: "gamemcu";
+            position: absolute;
+            font-size: 20px;
+            top: -70%;
+            left: 0;
+            padding: 5px;
+            white-space: nowrap;
+            color: white;
+        }
+    </style>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content=" no-cache">
+    <meta http-equiv="expires" content="0">
+</head>
+
+<body>
+    <h2>青橙造物</h2>
+    <div class="zh">
+        <p>我们致力于创造令人惊叹的用户体验</p>
+    </div>
+    <div class="en">
+        <p style="margin-bottom: 0px;">We are committed to creating amazing experiences for our users.</p>
+        <p style="margin-top: 0px;">Welcome to follow us</p>
+    </div>
+    <div class="links">
+        <a class="links-div" title="LoongTeX" href="https://www.loongtex.com" rel="noopener" target="_blank">
+            <img class="links-div-img" src="./img/loongtex.png" alt="" />
+        </a>
+        <!-- <a class="links-div" title="Github" href="https://github.com" rel="noopener" target="_blank">
+            <img class="links-div-img" src="./img/github.png" alt="" />
+        </a>
+        <a class="wechat" title="Wechat" rel="noopener" target="_blank" >
+            <img class="links-div-img" src="./img/wechat.png" alt="" />
+        </a> -->
+    </div>
+</body>
+
+</html>
