@@ -22,14 +22,12 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
-    runs-on: prod_runner
   # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: prod_runner
     steps:
       - name: Checkout
         uses: actions/checkout@v4
